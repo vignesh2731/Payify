@@ -33,7 +33,7 @@ export function SignUp(){
                     <Fields onChange={e=>setFirstName(e.target.value)} label={"FirstName"} placeholder={"John"} />
                     <Fields onChange={e=>setLastName(e.target.value)} label={"LastName"} placeholder={"Cena"} />
                     <Fields onChange={e=>setUsername(e.target.value)} label={"Email"} placeholder={"xyz@gmail.com"} />
-                    <Fields onChange={e=>setPassword(e.target.value)} label={"Password"} placeholder={"*********"} />
+                    <Fields onChange={e=>setPassword(e.target.value)} label={"Password"} type={"password"} placeholder={"*********"} />
                     <div className="flex justify-center">
                         <Button onClick={async()=>{
                             try {

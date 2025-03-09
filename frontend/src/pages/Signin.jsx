@@ -32,7 +32,7 @@ export function Signin() {
                     <Fields 
                         label={"Password"} 
                         placeholder={"*******"} 
-                        type="password" 
+                        type="password"
                         onChange={(e) => setPassword(e.target.value)} 
                     />
                 </div>
